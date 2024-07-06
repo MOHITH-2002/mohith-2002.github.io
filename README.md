@@ -1,9 +1,9 @@
 **Course Name:** Algorithmic Problem Solving  
 **Course Code:** 23ECSE309  
-**Name:** Mohith B A
-**SRN:** 01FE21BEC267
+**Name:** Mohith B A  
+**SRN:** 01FE21BEC267   
 **University:** KLE Technological University, Hubballi-31  
-**Portfolio domain:** Disney+ Hotstar  
+**Portfolio domain:** Disney+ Hotstar   
 
 ## Introduction
 Disney+ Hotstar is a leading Over-The-Top (OTT) platform known for its extensive content library and live-streaming capabilities, catering to millions of users globally. This portfolio delves into the intricate technological landscape of Disney+ Hotstar, exploring the complexities of content management, real-time streaming, and personalized user experiences. By examining the role of advanced data structures, algorithms, and system design principles, this portfolio aims to uncover innovative solutions that enhance platform performance and user satisfaction.
