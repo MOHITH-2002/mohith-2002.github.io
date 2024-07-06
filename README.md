@@ -19,6 +19,10 @@ Disney+ Hotstar starts by uploading a wide variety of content, such as popular m
 
 
 ## Business Use Cases
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*05GPe-pAY7iWtPFk8ys3Tw.png" width="500" alt="HLD-Youtube">
+</p>
+
 
 
 #### 1. Live Streaming Optimization
@@ -60,7 +64,7 @@ Content Delivery Networks (CDNs) play a vital role in optimizing content deliver
 -  **A * Search Algorithm:** Greedy approach, heuristic-based
 -  **Best first search:** Priority queue, BFS
 
-
+[View Implementation](https://medium.com/@koushiknsec34/ai-a-search-algorithm-in-java-51482ce8f7c3#:~:text=The%20A*%20algorithm%20is%20guaranteed,quality%20of%20the%20heuristic%20function.)
 #### 4. Content-Based Filtering: Genre-based recommendation systems
 Content-based filtering recommends content to users based on their past interactions and the attributes of the content itself (e.g., genre, keywords, metadata). It creates user-profiles and matches content attributes with user preferences.
 
