@@ -51,9 +51,18 @@ Efficiently managing the ingestion and processing of user-generated videos is es
 -  **Queue Management:** FIFO (First In, First Out) for handling video upload tasks
 -  **Dynamic Programming:** Optimizing video transcoding and compression
 
+#### 3. Load Balancing Across Servers
+Load balancing is critical for efficiently managing server resources in large infrastructures like Disney+ Hotstar's live streaming services. It involves distributing incoming traffic across multiple servers to optimize resource use. Effective load balancing ensures high availability and seamless live-streaming experiences for Disney+ Hotstar's global audience.
 
+**Challenges**: Handling sudden traffic spikes and maintaining consistent performance across a global user base.
+**Market Benefits**: Enhances user satisfaction and market competitiveness by ensuring seamless streaming experiences.
 
-#### 3. CDN optimization
+**Design techniques and algorithms:**  
+-  **Dijkstra’s Algorithm:** ShortestPath with non-negative edge weights, minimizing latency and maximizing data transfer efficiency.
+-  **Round Robin:** Distributes requests sequentially across the servers.
+
+[View Implementation](https://github.com/MOHITH-2002/java/blob/main/zDDSSAA/Graphs/Dijkshtra.java)
+#### 4. CDN Optimization
 Content Delivery Networks (CDNs) play a vital role in optimizing content delivery across geographically dispersed regions, ensuring quicker load times, and reducing bandwidth costs.
 
 **Challenges**: CDN costs, Smooth playback for all users.
@@ -63,9 +72,19 @@ Content Delivery Networks (CDNs) play a vital role in optimizing content deliver
 **Design techniques and algorithms:**  
 -  **A * Search Algorithm:** Greedy approach, heuristic-based
 -  **Best first search:** Priority queue, BFS
-
 [View Implementation](https://medium.com/@koushiknsec34/ai-a-search-algorithm-in-java-51482ce8f7c3#:~:text=The%20A*%20algorithm%20is%20guaranteed,quality%20of%20the%20heuristic%20function.)
-#### 4. Content-Based Filtering: Genre-based recommendation systems
+
+#### 5. Efficient Data Storage in CDNs
+CDN servers in Disney+ Hotstar store various data types such as HTML documents, stylesheets, JavaScript files, transcoded video segments, and metadata. Compressing this data using algorithms like Gzip, which combines LZ77 and Huffman coding, ensures efficient storage and faster transmission rates.
+
+**Challenges**: Consider balancing compression ratio and computing costs.
+**Market Benefits**:  Cost reduction and Scalablity.
+
+**Design techniques and algorithms:**  
+-  **Huffman coding:** lossless data compression algorithm.
+[View Implementation](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+  
+#### 6. Content-Based Filtering: Genre-based recommendation systems
 Content-based filtering recommends content to users based on their past interactions and the attributes of the content itself (e.g., genre, keywords, metadata). It creates user-profiles and matches content attributes with user preferences.
 
 **Challenges**: Real-time processing, Data overload.
@@ -75,7 +94,7 @@ Content-based filtering recommends content to users based on their past interact
 **Design techniques and algorithms:**  
 -  **Collaborative filtering: ALS Algorithm** 
 
-#### 5. Subscription Recommendation Engines
+#### 7. Subscription Recommendation Engines
 
 Subscription recommendation engines analyze user behaviour and preferences to suggest the most suitable subscription plans. They utilize predictive algorithms to anticipate potential user disengagement and use this data to maintain user interest.
 
@@ -87,7 +106,38 @@ Subscription recommendation engines analyze user behaviour and preferences to su
 -  **organizing subscriber profiles:** Hashing, Binary Search Trees.
 -  **Predictive Models:** Logistic Regression, Decision Trees
 
+#### 8. Cross-Device Sync
 
+Disney+ Hotstar's cross-device sync feature enables users to seamlessly continue watching content across multiple devices. For example, a user can start watching a movie on their smart TV, pause it, and then resume from the same point on their smartphone. This feature enhances the user experience by providing continuity and convenience.
+
+**Challenges**: Maintaining consistent data across devices, especially with intermittent connectivity or offline usage.
+
+
+**Market Benefits**: Users appreciate seamless device switching, leading to higher satisfaction and engagement.
+
+**Design techniques and algorithms:**  
+-  **Lazy Propagation:** Delays updates until necessary, reducing data transmission and handling bursts of updates efficiently.
+-  **Bloom Filters:** A space-efficient data structure to quickly check if a user has watched a particular show or movie.
+
+#### 9. Search Optimization
+Users often search for longer titles. Autocompleting the next word can enhance the experience. Tries are used to suggest words based on prefixes, and NLP techniques improve accuracy.
+**Challenges**: Real-time correction, prediction of user intent, and personalization.
+**Market Benefits**: Improved user experience and increased user retention rates.
+
+**Design techniques and algorithms:**  
+- **Trie Data Structure:** Greedy approach, heuristic-based
+
+#### 10. Subtitle Synchronization
+Subtitle synchronization in Disney+ Hotstar involves aligning subtitle text with audio and visual cues to ensure they appear at the right moment, enhancing the viewing experience for non-native speakers and the hearing impaired.
+
+**Challenges**: Accurate alignment with audio-visual timelines, considering frame rate variations and subtitle file formats.
+
+**Market Benefits**: Improves viewership among non-native speakers and enhances user experience by providing accessible content consumption.
+
+**Design techniques and algorithms:**  
+-  **AVL Trees:** Searches traverse the tree based on timestamp values.
+  
+[View Implementation](https://github.com/MOHITH-2002/java/blob/main/zDDSSAA/Trees/BST/AvlTree.java)
 ### References
 - [Disney+ Hotstar System Design for Live Streaming ](https://medium.com/@Gaurav123/disney-hotstar-system-design-for-43-million-concurrent-users-for-india-vs-nz-cwc-2023-262ae9607e0d)
 
