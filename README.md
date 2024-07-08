@@ -78,6 +78,7 @@ Content Delivery Networks (CDNs) play a vital role in optimizing content deliver
 **Design techniques and algorithms:**  
 -  **A * Search Algorithm:** Greedy approach, heuristic-based
 -  **Best first search:** Priority queue, BFS
+  
 [View Implementation](https://medium.com/@koushiknsec34/ai-a-search-algorithm-in-java-51482ce8f7c3#:~:text=The%20A*%20algorithm%20is%20guaranteed,quality%20of%20the%20heuristic%20function.)
 
 #### 5. Efficient Data Storage in CDNs
@@ -88,6 +89,7 @@ CDN servers in Disney+ Hotstar store various data types such as HTML documents, 
 
 **Design techniques and algorithms:**  
 -  **Huffman coding:** lossless data compression algorithm.
+  
 [View Implementation](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
   
 #### 6. Content-Based Filtering: Genre-based recommendation systems
