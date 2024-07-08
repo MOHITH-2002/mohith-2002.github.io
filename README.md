@@ -21,7 +21,7 @@ Disney+ Hotstar starts by uploading a wide variety of content, such as popular m
 ## System Design 
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/C4E22AQH-JPsWYlpBNw/feedshare-shrink_800/0/1654789446763?e=1723075200&v=beta&t=gqOHm6J6L3iad0DHkIX-34c0cQl7bj2v24orwEjkwu4" width="500" alt="system design">
+  <img src="https://files.edgestore.dev/0z6zd9sqa4ndf10i/publicFiles/_public/a5d5d776-dc0e-4811-bb29-55ad5fd27c60.jpeg" width="500" alt="system design">
 </p>
 
 ## Business Use Cases
